@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/yolov8.py.iml" filepath="$PROJECT_DIR$/.idea/yolov8.py.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/yolov8-pytorch.iml" filepath="$PROJECT_DIR$/.idea/yolov8-pytorch.iml" />
     </modules>
   </component>
 </project>

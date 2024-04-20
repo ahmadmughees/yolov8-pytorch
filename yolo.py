@@ -336,12 +336,3 @@ class DetectionModel(nn.Module):
             x = m(x)  # run
             y.append(x if m.i in self.save else None)  # save output
         return x
-
-def main():
-    def count_parameters(model_):
-        return sum(p.numel() for p in model_.parameters() if p.requires_grad)
-
-    model = DetectionModel("n", 80)
-    print(f"total parameter: {count_parameters(model)}")
-
-    model.load_state_dict(torch.load(r"C:\Users\ahmad\.i5o\weights\pridemobility\wip-counting\small_v1_20240220\weights\best_state_dict.pt"))
