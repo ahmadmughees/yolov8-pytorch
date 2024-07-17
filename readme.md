@@ -30,6 +30,9 @@ This repo provides a simplified implementation of the YOLOv8 model, making it ea
 ### TODO:
 - [ ] add NMS to filter out overlapping bounding boxes
 
+### Disclaimer and Responsible Use:
+This repo is intended for educational and research  purposes only. You may consult [ultralytics](https://github.com/ultralytics/ultralytics) for any legal guidance. 
+
 ### References
 - https://github.com/ultralytics/ultralytics
 - The inspiration of this project is derived form https://github.com/karpathy/llm.c
